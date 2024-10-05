@@ -35,3 +35,7 @@ let people: {
     name: string;
     age: number;
 }[];
+
+// Type inference - It's a good practice
+// let course = 'React bootcamp';
+// course = 12;
