@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76c6e65e-9072-4c84-b060-e28deca20274" name="Changes" comment="Added Generics and function types">
+      <change afterPath="$PROJECT_DIR$/ts-basics/with-typescript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ts-basics/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts-basics/Basics.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ts-basics/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no-typescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/ts-basics/no-typescript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ts-basics/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ts-basics/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/with-typescript.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts-basics/with-typescript.ts" afterDir="false" />
+    </list>
+    <list id="2c3ed959-d435-4e46-9035-2cb8a35dda63" name="Untracked files" comment="Untracked files" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Nikhil98765/react-typescript.git&quot;,
+    &quot;accountId&quot;: &quot;bcb2a666-1894-4efd-8b2b-fb5911bf1d40&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2n1lxXB72XjGZjH1wJ5mHh38Lql" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.Basics.ts.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/nikhilkamboji/Learning/React/react+typescript",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font",
+    "ts.external.directory.path": "/Users/nikhilkamboji/Learning/React/react+typescript/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76c6e65e-9072-4c84-b060-e28deca20274" name="Changes" comment="" />
+      <changelist id="2c3ed959-d435-4e46-9035-2cb8a35dda63" name="Untracked files" comment="" />
+      <created>1728148709876</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728148709876</updated>
+      <workItem from="1728148710957" duration="3714000" />
+      <workItem from="1728152521767" duration="254000" />
+      <workItem from="1728152780503" duration="2470000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1728149875311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728149875311</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added basic types">
+      <option name="closed" value="true" />
+      <created>1728150875869</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728150875869</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added type inference">
+      <option name="closed" value="true" />
+      <created>1728151144072</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728151144072</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Generics and function types">
+      <option name="closed" value="true" />
+      <created>1728154429941</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728154429942</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Added basic types" />
+    <MESSAGE value="Added type inference" />
+    <MESSAGE value="Added Generics and function types" />
+    <MESSAGE value="Untracked files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Untracked files" />
+  </component>
+</project>
