@@ -1,8 +1,11 @@
-import React, {useRef} from "react";
+import React, {useContext, useRef} from "react";
 
 import classes from './NewTodo.module.css';
+import {TodosContext} from "../store/todos-context";
 
-export const NewTodo: React.FC<{onAddTodo: (text: string) => void}> = (props) => {
+export const NewTodo: React.FC = () => {
+
+    const todoCtxObj = useContext(TodosContext);
 
     const todoTextInputRef = useRef<HTMLInputElement>(null);
 
@@ -14,7 +17,7 @@ export const NewTodo: React.FC<{onAddTodo: (text: string) => void}> = (props) =>
             // throw error
             return;
         }
-        props.onAddTodo(enteredText);
+        todoCtxObj.addTodo(enteredText);
     }
 
     return (
