@@ -1,7 +1,9 @@
 import React, {PropsWithChildren} from "react";
 
+import classes from './TodoItem.module.css';
+
 export const TodoItem: React.FC<PropsWithChildren<{text: string}>> = (props) => {
     return (
-        <li>{props.text}</li>
+        <li className={classes.item}>{props.text}</li>
     )
 }
