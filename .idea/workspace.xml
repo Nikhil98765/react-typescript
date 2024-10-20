@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76c6e65e-9072-4c84-b060-e28deca20274" name="Changes" comment="Added Generics and function types">
-      <change afterPath="$PROJECT_DIR$/ts-basics/with-typescript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ts-basics/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts-basics/Basics.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ts-basics/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/no-typescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/ts-basics/no-typescript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ts-basics/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ts-basics/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/with-typescript.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts-basics/with-typescript.ts" afterDir="false" />
+    <list default="true" id="76c6e65e-9072-4c84-b060-e28deca20274" name="Changes" comment="Moved basic ts files into basic-ts folder and created react app with ts">
+      <change afterPath="$PROJECT_DIR$/react-ts/src/components/TodoItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-ts/src/components/Todos.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-ts/src/models/Todo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-ts/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/react-ts/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-ts/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-ts/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-ts/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-ts/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-ts/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-ts/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-ts/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-ts/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-ts/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-ts/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-ts/src/setupTests.ts" beforeDir="false" />
     </list>
     <list id="2c3ed959-d435-4e46-9035-2cb8a35dda63" name="Untracked files" comment="Untracked files" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -65,8 +71,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font",
-    "ts.external.directory.path": "/Users/nikhilkamboji/Learning/React/react+typescript/node_modules/typescript/lib",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Users/nikhilkamboji/Learning/React/react+typescript/react-ts/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -77,6 +84,28 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ts-basics" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/react-ts/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -95,7 +124,12 @@
       <updated>1728148709876</updated>
       <workItem from="1728148710957" duration="3714000" />
       <workItem from="1728152521767" duration="254000" />
-      <workItem from="1728152780503" duration="2470000" />
+      <workItem from="1728152780503" duration="3686000" />
+      <workItem from="1728314768624" duration="660000" />
+      <workItem from="1728547609476" duration="587000" />
+      <workItem from="1729425050319" duration="12000" />
+      <workItem from="1729425076770" duration="2911000" />
+      <workItem from="1729428469934" duration="1150000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -129,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728154429942</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Moved basic ts files into basic-ts folder and created react app with ts">
+      <option name="closed" value="true" />
+      <created>1728155422878</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728155422878</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +183,7 @@
     <MESSAGE value="Added type inference" />
     <MESSAGE value="Added Generics and function types" />
     <MESSAGE value="Untracked files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Untracked files" />
+    <MESSAGE value="Moved basic ts files into basic-ts folder and created react app with ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved basic ts files into basic-ts folder and created react app with ts" />
   </component>
 </project>
